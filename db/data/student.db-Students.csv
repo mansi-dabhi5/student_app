@@ -1,0 +1,6 @@
+ID,name,address,email,mobile,age,gender
+STU001,Emma Watson,"123 Maple St, Boston, MA",emma.watson@email.com,+1-555-0198,20,Female
+STU002,Liam Nguyen,"456 Oak Ave, Austin, TX",liam.n@email.com,+1-555-0143,22,Male
+STU003,Sofia Rodriguez,"789 Pine Rd, Miami, FL",sofia.r@email.com,+1-555-0177,19,Female
+STU004,Noah Smith,"321 Elm St, Seattle, WA",noah.smith@email.com,+1-555-0121,21,Male
+STU005,Aisha Rahman,"654 Cedar Ln, Chicago, IL",aisha.r@email.com,+1-555-0165,20,Female

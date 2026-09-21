@@ -1,0 +1,34 @@
+### Reading data from student table
+
+GET http://localhost:4004/odata/v4/student-api/StudentSet
+
+
+### Reading data from course table
+GET http://localhost:4004/odata/v4/courses-api/CoursesSet
+
+### create record in student table
+
+POST http://localhost:4004/odata/v4/student-api/StudentSet
+Content-Type: application/json
+
+{
+      "name": "Mansi",
+      "address": "123 Maple St, Boston, MA",
+      "email": "emma.watson@email.com",
+      "mobile": "+1-555-0198",
+      "age": 20,
+      "gender": "Female"
+}
+
+### Update Data
+// if we have multiple key then use name='',gender=''
+PATCH http://localhost:4004/odata/v4/student-api/StudentSet('STU002')
+Content-Type: application/json
+
+{
+      "email": "mansi234@email.com"
+}
+
+### Delete data
+
+DELETE http://localhost:4004/odata/v4/student-api/StudentSet('STU003')
