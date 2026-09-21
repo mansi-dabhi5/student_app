@@ -3,7 +3,7 @@ using {student.db as model} from '../db/schema';// we can use multiple table usi
 
 service StudentAPIService {
     entity StudentSet as projection on model.Students;// StudentSet is custom entity name, standard syntax
-
+    entity Authors as projection on model.Authors;
 }
 
 service CoursesAPIService {
